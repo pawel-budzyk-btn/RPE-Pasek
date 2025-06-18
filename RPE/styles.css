@@ -1,0 +1,168 @@
+:root {
+  --color-a-blue-500: #2055cc;
+  --color-a-red-500: #e0001a;
+  --color-a-red-300: #ff7081;
+  --color-a-yellow-500: #f6a800;
+  --color-a-yellow-400: #ffb924;
+  --color-a-yellow-200: #ffdf99;
+  --color-a-yellow-100: #fdeed5;
+  --color-a-convert-300: #14ffa7;
+  --color-a-convert-500: #19cd89;
+  --color-a-modeules-ccadency: #8c1db1;
+  --color-a-cold-gray-900: #02182b;
+  --color-a-cold-gray-800: #032949;
+  --color-a-cold-gray-700: #143d5f;
+  --color-a-cold-gray-600: #3c617f;
+  --color-a-cold-gray-500: #6b879e;
+  --color-a-cold-gray-400: #b0c4d5;
+  --color-a-cold-gray-300: #d6e1ec;
+  --color-a-cold-gray-200: #eef5fb;
+  --color-a-cold-gray-150: #f6fafd;
+  --color-a-cold-blue-100: #e1e7f9;
+  --color-a-cold-gray-1000: #ffffff;
+
+  --menu-container-background-color: var(--color-a-cold-gray-150);
+  --menu-container-header-background-color: var(--color-a-cold-blue-100);
+}
+
+/* Font Face Declarations for SanaSansAlt */
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; /* Improves loading performance */
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-BookItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Regular.otf") format("opentype");
+  font-weight: normal; /* 400 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-RegularItalic.otf") format("opentype");
+  font-weight: normal; /* 400 */
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-HeavyItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SanaSansAlt";
+  src: url("./fonts/SanaSansAlt-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Default font usage for the body */
+body {
+  font-family: "SanaSansAlt", -apple-system, BlinkMacSystemFont, "Segoe UI";
+  height: 100%;
+  margin: 0; /* Added to remove default margin */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
