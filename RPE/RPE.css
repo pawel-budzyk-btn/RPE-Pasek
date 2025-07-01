@@ -239,7 +239,7 @@
 }
 
 .item_checkbox:checked {
-  background-color: var(--primary-color);
+  background-color: var(--color-a-red-500);
 }
 
 .item_checkbox:checked::after {
