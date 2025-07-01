@@ -144,7 +144,7 @@
   transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
-  background-image: url("./../check.svg");
+  background-image: url("./../../check.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
