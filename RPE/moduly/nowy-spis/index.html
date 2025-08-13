@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Lista Spisów</title>
+    <link rel="stylesheet" href="./../../styles.css" />
+    <link rel="stylesheet" href="nowy-spis.css" />
+  </head>
+  <body>
+    <div class="menu-container">
+      <div class="menu-container__header">Dodawanie nowego spisu</div>
+      <div class="menu-container__content">
+        <div class="menu-container__content-searcher">
+          <div class="menu-container__content-searcher-label">Nazwa spisu</div>
+          <input type="text" placeholder="Wpisz nazwę ..." />
+        </div>
+        <div class="menu-container__content-searcher">
+          <div class="menu-container__content-searcher-label">
+            Wklej listę artykułów
+          </div>
+          <textarea placeholder="Wklej listę artykułów ..." rows="4"></textarea>
+        </div>
+        <div class="menu-container__content-searcher">
+          <div class="menu-container__content-searcher-label">
+            Wybierz listę konkurentów <strong>*</strong>
+          </div>
+          <div class="menu-container__content-searcher-container">
+            <div class="menu-container__content-searcher">
+              <input type="text" placeholder="Wyszukaj" />
+              <img src="./../../search.svg" />
+            </div>
+            <div class="menu-container__content-list">
+              <div class="menu-container__content-list-item">
+                <input type="checkbox" />
+                <div style="font-weight: 600">AD0001</div>
+                <div>ALDI</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
